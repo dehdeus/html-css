@@ -1,0 +1,41 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 32px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(0, 170, 156);
+}
+section {
+    border: 1px solid gray;
+}
+section.destaque {
+    background-color:  #c0c0c0;
+    border-radius: 8px;
+}
+section .destaque {
+    background-color:  #ff91bf;
+    border-radius: 20px 30px 40px 50px
+}
+.destaque {
+    color: indianred;
+}
+#empresaInteressada {
+    background-color: indigo;
+}
+[data-func*="minha foto"] {
+    border-radius: 50%;
+    transition: all 0.8s ease-in-out;
+}
+[data-func*="minha foto"]:hover {
+    transform: rotate(180deg);
+}
