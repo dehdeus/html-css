@@ -15,9 +15,21 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(0, 170, 156);
+    color: rgb(170, 221, 255);
 }
 
+header {
+    background-color: rgba(224, 224, 224, 0.548);
+    top: 0;
+    text-align: center;
+}
+main {
+    border: 1px solid rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 [data-func*="minha foto"] {
     border-radius: 50%;
     transition: all 0.8s ease-in-out;
@@ -28,7 +40,7 @@ h6 {
     transform: rotate(180deg);
 }
 [href="#top"] {
-    background-color: crimson;
+    background-color: rgb(170, 221, 255);
     color: #ffffff;
     text-transform: lowercase;
     border-radius: 30px;
@@ -41,15 +53,9 @@ h6 {
     text-decoration: none;
     transition: all 0.8s ease-in-out;
 }
-
 [href="#top"]:hover {
-    transform: rotate(180deg)
-}
+    background-color: #fff;
+    border-color: rgb(170, 221, 255);
+    color: rgb(170, 221, 255);
 
-main {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
