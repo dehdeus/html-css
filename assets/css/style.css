@@ -26,13 +26,15 @@ header {
 main {
     border: 1px solid rgb(224, 224, 224);
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-start; */
+
+
 }
 [data-func*="minha foto"] {
     border-radius: 50%;
-    transition: all 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.85));
 }
 
@@ -44,14 +46,15 @@ main {
     color: #ffffff;
     text-transform: lowercase;
     border-radius: 30px;
-    position: fixed;
     display: block;
-    bottom: 12px;
-    right: 12px;
     padding: 5px 10px;
     border: 2px solid #fff;
     text-decoration: none;
     transition: all 0.8s ease-in-out;
+    /* Trabalhando para deixar o position fixo no bottom */
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
 }
 [href="#top"]:hover {
     background-color: #fff;
