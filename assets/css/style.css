@@ -54,12 +54,11 @@ main {
     margin-bottom: 100px;
 }
 
-.destaque {
+.container {
     margin-top: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 [href="#top"] {
