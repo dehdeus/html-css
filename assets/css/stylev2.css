@@ -1,0 +1,53 @@
+* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+a
+a:active,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    margin-top: 56px;
+    min-height: calc(100vh - 100px);
+}
+
+.carousel-item {
+    height: 25vh;
+    text-align: center;
+}
+
+[data-banner="1"] {
+    background-color: lightcoral;
+}
+
+[data-banner="2"] {
+    background-color: rgb(128, 218, 240);
+}
+
+[data-banner="3"] {
+    background-color: rgb(197, 240, 128);
+}
+
+h2 {
+    color: lightcoral;
+    font-weight: bolder; 
+}
+
+h3 {
+    color: lightslategray;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    height: 44px;
+}
