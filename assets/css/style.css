@@ -6,42 +6,32 @@
     scroll-behavior: smooth;
 }
 
-body {
-    padding: 32px;
-}
 h1,
 h4,
 h5,
 h6 {
-    color: rgb(0, 85, 50);
+    color: rgb(106, 141, 151);
 }
+nav {
+    background: rgba(255, 255, 255, 0.582);
+}
+
 header {
     background-color: rgba(224, 224, 224, 0.548);
     height: 200px;
-    padding-top: 60px;
-    padding-left: 180px;
-    background-image: url(https://cdn.pixabay.com/photo/2020/07/08/08/07/daisy-5383056_1280.jpg);
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-beer-000_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=0192701d7f37804134cbb67842828fbb);
     background-position: 0px -220px;
     background-attachment: fixed;  
 }
 
-h2 {
-    color: rgb(255, 255, 255);
+.titulo {
+    color: rgb(133, 133, 133);
+    text-align: center;
 }
 
 h3 {
-    color: rgb(0, 85, 50);
+    color: rgb(153, 235, 255);
     text-align: center;
-}
-.cargo-atual {
-    color: lightgray;
-}
-
-[data-func*="minha foto"] {
-    border-radius: 50%;
-    transition: transform 0.8s ease-in-out;
-    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.85));
-    margin-top: 10px;
 }
 
 main {
@@ -49,20 +39,32 @@ main {
 }
 
 .sobre {
-    margin-top: 20px;
+    margin: 20px 40px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
-.container {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+#skills {
+    text-align: center;
+}
+
+h5  {
+    text-align: center;
+}
+
+#experiencia {
+    margin-left: 10vw;
+}
+
+#experiencia1 {
+    margin-left: 5vw;
+}
+
+#formacao {
+    margin-bottom: 50px;
 }
 
 [href="#top"] {
-    background-color: rgb(255, 247, 170);
+    background-color: coral;
     color: #000000;
     text-transform: lowercase;
     border-radius: 30px;
@@ -78,11 +80,16 @@ main {
 }
 [href="#top"]:hover {
     background-color: rgb(255, 255, 255);
-    border-color: rgb(255, 251, 0);
+    border-color: coral;
     color: rgb(0, 0, 0);
 
 }
-
+/* [data-func*="minha foto"] {
+    border-radius: 50%;
+    transition: transform 0.8s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.85));
+    margin-top: 10px;
+} */
 @media screen and (min-width: 2000px) {
     body {
         background-color: rgb(170, 255, 208)

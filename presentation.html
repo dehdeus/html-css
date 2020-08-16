@@ -9,12 +9,31 @@
 </head>
 <body>
     <header>
-        <!-- <section class="foto">
-            <img data-func="minha foto" src="assets/css/img/dehlinkedin.jpeg" alt="Foto da Candidata - Déborah de Deus" width="96px" height="96px">
-        </section> --> 
-        <section>
-            <h2><strong>Déborah de Deus Tuba</strong></h2>
-                <p class="cargo-atual">Comunicação e Desenvolvimento Marketplace - E-commerce</p>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Programador Júnior</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiência</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formacao">Formação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <section class="titulo">
+            <h2>Déborah de Deus Tuba</h2>
+                <p>Comunicação e Desenvolvimento Marketplace - E-commerce</p>
         </section>
         <div id="carouselExampleSlidesOnly" class="carouselslide" data-ride="carousel">
             <div class="carousel-inner">
@@ -22,12 +41,6 @@
         </div> 
     </header>
     <main>
-        <section>
-            <button type="button" class="btn btn-light">SKILLS</button>
-            <button type="button" class="btn btn-light">EXPERIÊNCIA</button>
-            <button type="button" class="btn btn-light">FORMAÇÃO</button>
-            <button type="button" class="btn btn-light">CONTATO</button>
-        </section>
        <section class="sobre">
         <h3>SOBRE</h3>
              <p>
@@ -40,51 +53,57 @@
                  Sou muito organizada, gosto de planejar ações, no entanto sei que o dia-a-dia requer jogo de cintura para solução de problemas. Gosto de desafios e exatamente por isso decidi fazer uma formação em Web Full Stack, pois acredito que aliar o meu conhecimento a essa área vai ser extretamente positivo para meu crescimento profissional e para aplicação na empresa em que estiver.
              </p>
         </section>
-        <h3>SKILLS</h3>
-        <div class="container">
-                <section class="destaque">
+
+        <section id="skills" class="skills row">
+            <h3 class="col-12 mt-5 mb-3">SKILLS</h3>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3">
                     <h4>SOFT SKILLS</h4>    
-                        <ul>
+                        <ul type="none">
                             <li>Comunicativa</li>
                             <li>Trabalho em equipe</li>
                             <li>Aprendizado rápido</li>
                             <li>Liderança</li>
                             <li>Flexibilidade</li>
                         </ul>
-                </section>
-                <section class="destaque">    
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3">   
                     <h4>HARD SKILLS</h4>
-                        <ul>
+                        <ul type="none">
                             <li>Photoshop</li>
                             <li>InDesign</li>
                             <li>Illustrator</li>
                             <li>Final Cut</li>
                             <li>Pacote Office</li>
                         </ul>
-                </section>
-                <section class="destaque">
+                </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3"> 
                     <h4>IDIOMAS</h4>
-                        <ul>
+                        <ul type="none">
                             <li>Inglês - Avançado / Fluente</li>
                             <li>Espanhol - Avançado</li>
                             <li>Português</li>
                         </ul>  
-                </section> 
-        </div>        
-       <hr>
-       <section>
-           <h3>EXPERIÊNCIA</h3>
-                <h4>LD Varejo e Representação</h4>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Término</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>Abr/2015</td>
-                        <td>Atual</td>
-                    </tr>
-                </table>
+                </div>
+            </article>
+        </section>
+
+        <h3 class="experiencia col-12 mt-5 mb-3">EXPERIÊNCIA</h3>        
+       <section id="experiencia" class="row">
+           <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3">
+                    <h4>LD Varejo e Representação</h4>
+                        <ul type="none">
+                            <li>Início: Abr/2015</li>
+                            <li>Término: Atual</li>
+                        </ul>
+                </div>
+            </article>
+            <article id="experiencia1" class="col-12 col-md-6 col-lg-4 p-3">
                 <ul>
                     <li>Planejamento de Comunicação e Marketing</li>
                     <li>para as Redes Sociais, Adwar</li> 
@@ -104,18 +123,20 @@
                             <li>Parceiros de Marketplace, Pluggto, VTEX, Netshoes, B2W, ViaVarejo, Centauro, Amazon, Mercado Livre, Madeira Madeira, Carrefour, Centauro, Magazine Luiza</li>
                         </ul> 
                 </ul>
-                <h4>Momentum Brasil</h4>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Término</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>Set/2013</td>
-                        <td>Abr/2015</td>
-                    </tr>
-                </table>
-                <ul>
+            </article>
+       </section>
+        <section id="experiencia" class="row">
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3">
+                    <h4>Momentum Brasil</h4>
+                        <ul type="none">
+                            <li>Início: Set/2013</li>
+                            <li>Término: Abr/2015</li>
+                        </ul>
+                </div>
+            </article>    
+            <article id="experiencia1" class="col-12 col-md-6 col-lg-4 p-3">
+                <ul>           
                     <li>Clientes: Bradesco, Nestlé, Nextel, GM, J&J, Nissan, Senac, Zurich, GoDaddy, Cultura Inglesa, Kimberley-Clark, Colgate, Sony, Editora Abril</li>
                     <li>Produção e desenvolvimento de conteúdos para portais internos e externosda empresa</li>
                     <li>Planejamento de ações voltadas para a comunicação corporativa</li>
@@ -129,17 +150,19 @@
                     <li>Estruturação da área de Comunicação com alinhamento global </li>
                     <li>Agência global, exige alinhamento com diversos países, principalmente, Estados Unidos, Inglaterra, Chile e Argentina</li>   
                 </ul>
-                <h4>SKY Brasil</h4>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Término</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>Jan/2011</td>
-                        <td>Dez/2012</td>
-                    </tr>
-                </table>
+            </article>
+        </section>
+        <section id="experiencia" class="row">
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="p-3">        
+                    <h4>SKY Brasil</h4>
+                        <ul type="none">
+                            <li>Início: Jan/2011</li>
+                            <li>Término: Dez/2012</li>
+                        </ul>
+                </div>
+            </article>
+            <article id="experiencia1" class="col-12 col-md-6 col-lg-4 p-3">
                 <ul>
                     <li>Estagiária</li>
                     <li>Atendendo aproximadamente 2.500 funcionários</li>
@@ -150,71 +173,46 @@
                     <li>Gestão de indicadores da área</li>
                     <li>Auxílio na organização de eventos internos</li> 
                 </ul>
+            </article>    
        </section>
-       <hr>
-       <section>
-           <h3>FORMAÇÃO</h3>
-                <h4>Digital House</h4>
-                <p><strong><b>&#10148</b> Web Full Stack</strong></p>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Conclusão</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>2020</td>
-                        <td>Cursando</td>
-                    </tr>
-                </table>
-                <h4>ESPM - Escola Superior de Propaganda e Marketing</h4>
-                <p><strong><b>&#10148</b> Pós-Graduação em Marketing com Ênfase em Negócios</strong></p>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Conclusão</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>2014</td>
-                        <td>2016</td>
-                    </tr>
-                </table> 
-                <h4>Faculdade Cásper Líbero</h4>
-                <p><strong><b>&#10148</b> Graduação em Jornalismo</strong></p>
-                <table style="width:30%">
-                    <tr>
-                        <th>Início</th>
-                        <th>Conclusão</th>
-                    </tr>
-                    <tr style="text-align: center">
-                        <td>2009</td>
-                        <td>2012</td>
-                    </tr>
-                </table>
-       </section>
-       <hr>
-       <section>
-           <h3>Entre em contato</h3>
-           <p class="destaque">Entre em contato através do meu Email, linked In, Telefone, Whatsapp ou preencha o formulário abaixo, responderei assim que possível:</p>
-            <form action="obrigado.html" method="get">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+       <section id="formacao" class="formacao row">
+            <h3 class="col-12 mt-5 mb-3">FORMAÇÃO</h3>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="bg-light border rounded p-3">
+                        <h5>DIGITAL HOUSE</h5>
+                            <ul type="none">
+                                <li>Web Full Stack</li>
+                                <li>Início: 2020</li>
+                                <li>Conclusão: 2021</li>
+                            </ul>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Nome</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome e Sobrenome">
-                  </select>
+            </article>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="bg-light border rounded p-3"> 
+                        <h5>ESCOLA SUPERIOR DE PROPAGANDA E MARKETING (ESPM)</h5>
+                            <ul type="none">
+                                <li>Pós-Graduação em Marketing com Ênfase em Negócios</li>
+                                <li>Início: 2014</li>
+                                <li>Conclusão: 2016</li>
+                            </ul>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Comentários</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  <button type="button" class="btn btn-outline-secondary">Limpar</button>
-                  <button type="button" class="btn btn-outline-success">Enviar</button>
+            </article>
+            <article class="col-12 col-md-6 col-lg-4 p-3">
+                <div class="bg-light border rounded p-3"> 
+                        <h5>FACULDADE CÁSPER LÍBERO</h5>
+                            <ul type="none">
+                                <li>Graduação em Jornalismo</li>
+                                <li>Início: 2009</li>
+                                <li>Conclusão: 2012</li>
+                            </ul>
                 </div>
-              </form>
-       </section>
-       <!--  <section>
-        <ul type='none'>
+            </article>
+        </section>    
+       
+       <section id="contato" class="contato">
+           <h3>CONTATO</h3>
+           <ul type='none'>
             <li>
                 <b>Telefone: </b><a href="tel:+55 11 99313-7713">+55 11 99313-7713</a>
             </li>
@@ -231,7 +229,9 @@
                 <b>Linkedin: </b><a href="https://www.linkedin.com/in/deborahdeustuba/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/deborahdeustuba/</a>
             </li>
         </ul>
-       </section> -->
+       </section>
+       </section>
+      
     </main>
 <footer>
     <p>Déborah de Deus Tuba 2020 &copy; | <a href="mailto:deborahtuba@gmail.com?Subject=Vaga%20de%20Programador%20Jr%20&%20Body=Olá,%20gostei%20do%20seu%20perfil!">deborahtuba@gmail.com</a></p>
