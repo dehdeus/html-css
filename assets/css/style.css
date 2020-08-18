@@ -16,6 +16,14 @@ nav {
     background: rgba(255, 255, 255, 0.582);
 }
 
+.nav-link {
+    color: salmon;
+}
+
+.navbar-brand {
+    color: salmon;
+}
+
 header {
     background-color: rgba(224, 224, 224, 0.548);
     height: 200px;
@@ -39,7 +47,7 @@ main {
 }
 
 .sobre {
-    margin: 20px 40px;
+    padding: 20px 40px;
     text-align: center;
 }
 
@@ -64,7 +72,7 @@ h5  {
 }
 
 [href="#top"] {
-    background-color: coral;
+    background-color: salmon;
     color: #000000;
     text-transform: lowercase;
     border-radius: 30px;
@@ -78,9 +86,18 @@ h5  {
     bottom: 12px;
     right: 12px;
 }
+
+.rede-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 [href="#top"]:hover {
     background-color: rgb(255, 255, 255);
-    border-color: coral;
+    border-color: salmon;
     color: rgb(0, 0, 0);
 
 }
@@ -90,8 +107,3 @@ h5  {
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.85));
     margin-top: 10px;
 } */
-@media screen and (min-width: 2000px) {
-    body {
-        background-color: rgb(170, 255, 208)
-    }
-}
